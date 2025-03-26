@@ -1,0 +1,205 @@
+/* Variables globales */
+:root {
+    --guardar: #007bff;
+    --guardarHover: #0056b3;
+}
+
+/* Estilo general de la página */
+.nuevo {
+    width: 520px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.nuevo .header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    gap: 10px;
+    /* Espacio entre el botón y el título */
+}
+
+.nuevo h1 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+/* Formularios generales */
+.nuevo form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nuevo form div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nuevo .label {
+    flex: 1;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nuevo p {
+    margin: 0px;
+    max-width: 328px;
+    background-color: transparent;
+}
+
+.nuevo .save-button {
+    padding: 10px 20px;
+    background-color: var(--guardar);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nuevo .save-button:hover {
+    background-color: var(--guardarHover);
+}
+
+/* Iconos */
+.nuevo .icon {
+    width: 20px;
+    font-size: 1.2em;
+    color: var(--guardar);
+    margin-right: 5px;
+}
+
+.nuevo .icon-white {
+    width: 20px;
+    font-size: 1.2em;
+    color: white;
+    margin-right: 5px;
+}
+
+/* Campos específicos */
+.nuevo form div input[type="text"],
+.nuevo form div input[type="email"],
+.nuevo form div input[type="url"],
+.nuevo form div input[type="date"],
+.nuevo form div input[type="password"] {
+    width: 300px;
+    background-color: white;
+}
+
+.nuevo .dropdown {
+    background-color: white;
+    width: 328px;
+    /* Se le suma 28 debido al padding de los otros input*/
+}
+
+.cuerpo {
+    background-color: white;
+    width: 314px;
+    padding: 2px 6px;
+    /*2px de padding vertical, 6px de padding horizontal*/
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: vertical;
+    border-color: rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+}
+
+.cuerpo:hover {
+    border-color: black;
+}
+
+.cuerpo:focus {
+    border-width: 2px;
+    border-color: rgb(25, 118, 210);
+    outline: none;
+}
+
+/* Contenedores específicos */
+.file-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.custom-file-label {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: var(--guardar);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-label:hover {
+    background-color: var(--guardarHover);
+}
+
+input[type="file"] {
+    display: none;
+    /* Oculta el input file original */
+}
+
+.file-name {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.image-previews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-preview {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.span-pdf {
+    width: 328px;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-button {
+    position: absolute;
+    left: -10px;
+    top: -12px;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    padding: 10px;
+}
+
+.back-button:hover {
+    background-color: #ccc;
+    border-radius: 30px;
+}

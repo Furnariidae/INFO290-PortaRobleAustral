@@ -1,0 +1,85 @@
+:root {
+    --color1: #407b33;
+    --color2: #639c54;
+    --color3: #86bd76;
+    --color4: #a9de97;
+    --color5: #ccffb8;
+    --color6: #e4e4e5;
+    --color7: #bebebe;
+    --colorWeb: #007BFF;
+    --colorGithub: #333;
+}
+
+/*ajustando tarjeta para que todas queden iguales del mismo tamaño*/
+.miembro_equipo-card {
+    width: 255px;
+    height: 340px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el transform y el box-shadow */
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.miembro_equipo-card:hover {
+    transform: translateY(-5px);
+}
+
+.miembro_equipo-card .profile-pic {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.miembro_equipo-card .profile-pic img{
+    height: 150px;
+    border-radius: 100px;    
+}
+
+.miembro_equipo-card .miembro_equipo-info {
+    font-size: 14px;
+}
+
+.miembro_equipo-card .redes-sociales {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.miembro_equipo-info .redes-sociales a {
+    color: #000;
+    text-decoration: none;
+}
+
+.miembro_equipo-info .redes-sociales a:hover {
+    color: var(--colorWeb);
+}
+
+/* Estilos para la fecha con el Ãcono de calendario */
+.miembro_equipo-card .fecha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.miembro_equipo-card .fecha svg {
+    margin-right: 8px;
+    color: var(--colorWeb);
+}
+
+.miembro_equipo-card .fecha span {
+    font-size: 14px;
+    color: black;
+}

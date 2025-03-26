@@ -1,3 +1,16 @@
+## Ejecutar la aplicación con Docker
+
+Se Incluyen Dockerfiles para ejecutar la aplicación usando Docker
+
+- Tener instalado docker: https://www.docker.com/
+- Crear archivos .env siguiendo archivos .env.example (simplemente cambiar extensión si solo se quiere probar la aplicación)
+- En la carpeta raiz del repositorio ejecutar el comando:  docker compose up 
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
 ## Instalar Git
 
 Instalar Git para poder gestionar el código fuente del proyecto y establecer una vinculación con el repositorio remoto.
@@ -34,7 +47,5 @@ Ya una vez instalado node, se instala el lenguaje principal de la página: TypeS
 Se Incluyen Dockerfiles para ejecutar la aplicación usando Docker
 
 - Descargar e instalar Docker siguiendo las instrucciones encontradas en: https://www.docker.com/
-- En la carpeta del repositorio ejecutar el comando:  docker compose up --build
-- La aplicación estará accesible desde https://localhost:3008/inicio
+- En la carpeta del repositorio ejecutar el comando:  docker compose up --build (quitar --build si ya exta hecha)
 
-Eso es todo 👍

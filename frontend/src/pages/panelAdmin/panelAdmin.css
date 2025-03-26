@@ -1,0 +1,156 @@
+:root {
+    --color1: #407b33;
+    --color2: #639c54;
+    --color3: #86bd76;
+    --color4: #a9de97;
+    --color5: #ccffb8;
+    --color6: #e4e4e5;
+    --color7: #bebebe;
+    --modificar: #3B8EDB;
+    --modificarHover: #387cbb;
+    --colorGithub: #333;
+}
+
+.inicio-admin {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.inicio-admin .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px); 
+    gap: 70px 70px;
+    justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .inicio-admin .grid-container {
+        grid-template-columns: repeat(2, 250px); /* Dos columnas con ancho fijo */
+    }
+}
+
+@media (max-width: 600px) {
+    .inicio-admin .grid-container {
+        grid-template-columns: repeat(1, 250px); /* Una columna con ancho fijo */
+    }
+}
+
+.inicio-admin .card-admin {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.inicio-admin .card-admin h2 {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.inicio-admin .actions-admin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions-admin .boton-nuevo{
+    background-color: var(--color3);
+}
+
+.actions-admin .boton-nuevo:hover{
+    background-color: var(--color2);
+}
+
+.actions-admin .boton-modificar{
+    background-color: var(--modificar);
+}
+
+.actions-admin .boton-modificar:hover{
+    background-color: var(--modificarHover);
+}
+
+.inicio-admin button {
+    width: 110px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.margin-icon{
+    margin-right: 5px;
+}
+
+.logout-container {
+  display: flex;
+  justify-content: flex-end; /* Alinea el botón a la derecha */
+  margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.logout-button {
+  display: inline-flex; /* Asegura que el ícono y texto estén en la misma línea */
+  align-items: center; /* Centra verticalmente el ícono y el texto */
+  gap: 8px; /* Espacio entre el texto y el ícono */
+  background-color: #d9534f; /* Color rojo profesional */
+  color: white;
+  border: none;
+  padding: 10px 24px; /* Ajusta el relleno para darle más espacio */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  white-space: nowrap; /* Evita saltos de línea dentro del botón */
+  transition: background-color 0.3s ease;
+  min-width: 160px; /* Asegura que el botón tenga suficiente ancho */
+  text-align: center; /* Centra el texto dentro del botón */
+}
+
+.logout-button:hover {
+  background-color: #c9302c; /* Cambia a un tono más oscuro al pasar el mouse */
+}
+
+.margin-icon {
+  font-size: 18px; /* Ajusta el tamaño del ícono */
+}
+
+
+  
+  /* Overlay de carga */
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Asegura que la animación se muestre encima de todo */
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  /* Spinner de carga */
+  .loading-spinner {
+    border: 8px solid #f3f3f3; /* Color de fondo del spinner */
+    border-top: 8px solid #3498db; /* Color del borde superior */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite; /* Animación del giro */
+  }
+  
+  /* Animación del spinner */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Estilo adicional para el texto dentro del overlay */
+  .loading-overlay p {
+    margin-top: 20px;
+  }
+  

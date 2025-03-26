@@ -1,0 +1,190 @@
+{
+    "titulo": "Nuestro Equipo",
+    "colaboradores": [
+      {
+        "nombre": "Luis Veas",
+        "profesion": "Propietario y Fundador",
+        "correo": "luis.veasc@inf.uach.cl",
+        "fecha": "05/08/2024",
+        "imagen": "/imagenes_colab/luisveas.png",
+        "linkedin": "https://cl.linkedin.com/in/luis-veas-castillo-24314b43"
+      },
+      {
+        "nombre": "Sebastián Montecinos",
+        "profesion": "Ingeniero de Software y Desarrollador de RobleAustral",
+        "correo": "sebastian.montecinos02@alumnos.uach.cl",
+        "fecha": "13/12/2024",
+        "imagen": "/imagenes_colab/sebastian_montecinos.jpeg",
+        "linkedin": "https://www.linkedin.com/in/sebastian-montecinos-borelli-49750b156/"
+      },
+      {
+        "nombre": "Felipe Córdova",
+        "profesion": "Ingeniero de Calidad de Software y Desarrollador de RobleAustral",
+        "correo": "felipe.cordova@alumnos.uach.cl",
+        "fecha": "13/12/2024",
+        "imagen": "/imagenes_colab/pipe.png",
+        "linkedin": "https://www.linkedin.com/in/fcordovav/"
+      },
+      {
+        "nombre": "Orlando Contreras",
+        "profesion": "Scrum Master y Desarrollador de RobleAustral",
+        "correo": "orlando.contreras@alumnos.uach.cl",
+        "fecha": "13/12/2024",
+        "imagen": "/imagenes_colab/tomas.png",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "nombre": "Renato Atencio",
+        "profesion": "Product Owner y Desarrollador de RobleAustral",
+        "correo": "renato.atencio@alumnos.uach.cl",
+        "fecha": "13/12/2024",
+        "imagen": "/imagenes_colab/rena.png",
+        "linkedin": "https://www.linkedin.com/in/renato-atencio-aedo-958b651a8/"
+      },
+      {
+        "nombre": "Javier Reyes",
+        "profesion": "Encargado del Servidor y Desarrollador de RobleAustral",
+        "correo": "javier.reyes02@alumnos.uach.cl",
+        "fecha": "13/12/2024",
+        "imagen": "/imagenes_colab/javier.png",
+        "linkedin": "https://www.linkedin.com/in/javier-reyes-gómez-5bb1772a1"
+      },
+      {
+        "nombre": "Handel Venegas",
+        "profesion": "Administrador de Base de Datos y Desarrollador de RobleAustral",
+        "correo": "handel.venegas@alumnos.uach.cl",
+        "fecha": "13/12/2024",
+        "imagen": "/imagenes_colab/handel.png",
+        "linkedin": "https://www.linkedin.com/in/handel-venegas-05b3671b2/"
+      },
+      {
+        "nombre": "Bastián Villanueva",
+        "profesion": "Desarrollador de GeoParques",
+        "correo": "bastian.villanueva01@alumnos.uach.cl",
+        "fecha": "20/10/2024",
+        "imagen": "/imagenes_colab/bastian.jpg",
+        "linkedin": "https://www.linkedin.com/in/basti%C3%A1n-ignacio-villanueva-meza-232b6a225/"
+      },
+      {
+        "nombre": "Bladimir Pardo",
+        "profesion": "Tesista",
+        "correo": "bladimir.pardo@alumnos.uach.cl",
+        "fecha": "05/08/2024",
+        "imagen": "/imagenes_colab/bladimir_pardo.jpeg",
+        "linkedin": "https://www.linkedin.com/in/bladimir-pardo-619269257/"
+      },
+      {
+        "nombre": "Nicolás Robledo",
+        "profesion": "Tesista",
+        "correo": "nicolas.robledo@alumnos.uach.cl",
+        "fecha": "05/08/2024",
+        "imagen": "/imagenes_colab/nicolas_robledo.jpeg",
+        "linkedin": "https://www.linkedin.com/in/nrobledosagredo/"
+      },
+      {
+        "nombre": "Gustavo Reyes",
+        "profesion": "Tesista",
+        "correo": "gustavo.reyes01@alumnos.uach.cl",
+        "fecha": "05/08/2024",
+        "imagen": "/imagenes_colab/gustavo_reyes.jpeg",
+        "linkedin": "FALTA EL LINKEDIN"
+      },
+      {
+        "nombre": "Jorge Gonzalez",
+        "profesion": "Tesista",
+        "correo": "jorge.gonzalez04@alumnos.uach.cl",
+        "fecha": "05/08/2024",
+        "imagen": "/imagenes_colab/jorge_gonzalez.jpeg",
+        "linkedin": "https://www.linkedin.com/in/jorge-gonzález-gutiérrez-491337253/"
+      },
+      {
+        "nombre": "Sebastián Oyarzún",
+        "profesion": "Tesista",
+        "correo": "sebastian.oyarzun02@alumnos.uach.cl",
+        "fecha": "05/08/2024",
+        "imagen": "/imagenes_colab/sebastian_oyarzun.jpeg",
+        "linkedin": "FALTA LINKEDIN"
+      },
+      {
+        "nombre": "Sebastián Sanhueza",
+        "profesion": "Tesista",
+        "correo": "stereo.telev@gmail.com",
+        "fecha": "22/10/2024",
+        "imagen": "/imagenes_colab/sebastian_sanhueza.jpg",
+        "linkedin": "https://www.linkedin.com/in/stereotelev/"
+      },
+      {
+        "nombre": "Diego Carmona",
+        "profesion": "Tesista",
+        "correo": "diego.carmona@alumnos.uach.cl",
+        "fecha": "22/10/2024",
+        "imagen": "/imagenes_colab/diego_carmona.jpg",
+        "linkedin": "https://www.linkedin.com/in/diego-carmona-b9491322b/"
+      },
+      {
+        "nombre": "Franco Jiménez",
+        "profesion": "Tesista",
+        "correo": "franco.jimenez@alumnos.uach.cl ",
+        "fecha": "22/10/2024",
+        "imagen": "/imagenes_colab/luisveas.png",
+        "linkedin": "https://www.linkedin.com/in/franco-jimenez-6b50111b1"
+      },
+      {
+        "nombre": "Gerson Andrade",
+        "profesion": "Tesista",
+        "correo": "gerson.andrade@alumnos.uach.cl",
+        "fecha": "22/10/2024",
+        "imagen": "/imagenes_colab/Gerson_Andrade.jpeg",
+        "linkedin": "https://www.linkedin.com/in/gerson-andrade-meza-446470264/"
+      },
+      {
+        "nombre": "Matías Martinez",
+        "profesion": "Tesista",
+        "correo": "matias.martinez03@alumnos.uach.cl",
+        "fecha": "22/10/2024",
+        "imagen": "/imagenes_colab/matias_martinez.jpg",
+        "linkedin": "https://www.linkedin.com/in/matias-martinez-schwalm-8ab8a6299/"
+      },
+      {
+        "nombre": "Estefano Espinoza",
+        "profesion": "Tesista",
+        "correo": "estefano.espinoza@alumnos.uach.cl",
+        "fecha": "22/10/2024",
+        "imagen": "/imagenes_colab/estefano_espinoza.jpg",
+        "linkedin": "https://www.linkedin.com/in/estefano-espinoza-a4504b327/"
+      },
+      {
+        "nombre": "Alex Garnica",
+        "profesion": "Tesista",
+        "correo": "alex.garnica@alumnos.uach.cl",
+        "fecha": "22/10/2024",
+        "imagen": "/imagenes_colab/alex_garnica.jpg",
+        "linkedin": "https://www.linkedin.com/in/alex-basti%C3%A1n-garnica-hern%C3%A1ndez-017b8319a/"
+      },
+      {
+        "nombre": "Cristián Cárdenas",
+        "profesion": "Tesista",
+        "correo": "cristian.cardenas01@alumnos.uach.cl",
+        "fecha": "22/10/2024",
+        "imagen": "/imagenes_colab/luisveas.png",
+        "linkedin": "https://www.linkedin.com/in/christian-c%C3%A1rdenas-nauto-4a24a6179/?originalSubdomain=cl"
+      },
+      {
+        "nombre": "Geovanni Curguan",
+        "profesion": "Tesista",
+        "correo": "geovanni.curguan@alumnos.uach.cl",
+        "fecha": "22/10/2024",
+        "imagen": "/imagenes_colab/Geovanni_Curguan.jpeg",
+        "linkedin": "https://www.linkedin.com/in/geovani-curguan-74108125b/"
+      },
+      {
+        "nombre": "Felipe Sepúlveda",
+        "profesion": "Practicante",
+        "correo": "felipe.sepulveda@alumnos.uach.cl",
+        "fecha": "22/10/2024",
+        "imagen": "/imagenes_colab/luisveas.png",
+        "linkedin": "https://www.linkedin.com"
+      }
+    ]
+  }
+  

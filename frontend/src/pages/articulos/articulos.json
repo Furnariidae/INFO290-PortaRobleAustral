@@ -1,0 +1,399 @@
+[
+  {
+    "titulo": "A simulation tool for a large-scale NOSQL database",
+    "estado": "Terminado",
+    "fechaIni": "2019-03-01",
+    "fechaFin": "2019-03-01",
+    "abstract": "El crecimiento de datos en la web y la cantidad de usuarios exige que los servicios web procesen rápidamente las solicitudes, manejando picos impredecibles en la demanda. Las bases de datos NoSQL, como MongoDB, ofrecen escalabilidad y buen rendimiento para estos casos. Este trabajo presenta un simulador para MongoDB que detecta los niveles de saturación de los recursos (como computadoras y red) para asegurar su ejecución eficiente frente a diferentes demandas de usuarios y fallos de recursos.",
+    "autores": [
+      "Luis Veas"
+    ],
+    "participantes": [
+      { "nombre": "Luis Veas" },
+      { "nombre": "Gabriel Ovando" },
+      { "nombre": "Veronica Gil" },
+      { "nombre": "Mauricio Marin" }
+      ],
+    "galeria": [
+      "/imagen_articulos/paper06_lv_01.jpg",
+      "/imagen_articulos/paper06_lv_02.jpg",
+      "/imagen_articulos/paper06_lv_03.jpg",
+      "/imagen_articulos/paper06_lv_04.jpg",
+      "/imagen_articulos/paper06_lv_05.jpg"
+    ],
+    "instituciones": [
+      {
+        "nombre": "Universidad de Santiago de Chile",
+        "imagen": "/logos_articulos_detalles/usach_logo.png"
+      },
+      {
+        "nombre": "Universidad Nacional de San Luis, Argentina",
+        "imagen": "/logos_articulos_detalles/Usanluis_logo.png"
+      }
+    ],
+    "pdf": "/public/pdfs/paper06_lv.pdf",
+    "carta_de_apoyo": "/public/pdfs/ejemplo_pdf.pdf",
+    "link":""
+  },
+  {
+    "titulo": "MinVisited: A Message Routing Protocol for Delay Tolerant Network",
+    "estado": "Terminado",
+    "fechaIni": "2018-02-01",
+    "fechaFin": "2018-02-01",
+    "abstract": "Investigamos protocolos de enrutamiento para Redes Tolerantes a Demoras, enfocándonos en mejorar la entrega de mensajes en desastres naturales. Proponemos el protocolo MinVisited, que selecciona el siguiente nodo en función del vecino más distante y el número de encuentros con el destino. Comparado con protocolos existentes, MinVisited presenta baja sobrecarga y logra entregar el 95% de los mensajes con menos de 2 saltos en promedio.",
+    "autores": [
+      "Luis Veas"
+    ],
+    "participantes": [
+      { "nombre": "Luis Veas" },
+      { "nombre": "Gabriel Ovando" },
+      { "nombre": "Veronica Gil" },
+      { "nombre": "Mauricio Marin" }
+      ],
+    "galeria": [
+      "/imagen_articulos/paper05_lv_01.jpg",
+      "/imagen_articulos/paper05_lv_02.jpg",
+      "/imagen_articulos/paper05_lv_03.jpg",
+      "/imagen_articulos/paper05_lv_04.jpg",
+      "/imagen_articulos/paper05_lv_05.jpg"
+    ],
+    "instituciones": [
+      {
+        "nombre": "Universidad de Santiago de Chile",
+        "imagen": "/logos_articulos_detalles/usach_logo.png"
+      },
+      {
+        "nombre": "Universidad Nacional de San Luis, Argentina",
+        "imagen": "/logos_articulos_detalles/Usanluis_logo.png"
+      }
+    ],
+    "pdf": "/public/pdfs/paper05_lv.pdf",
+    "carta_de_apoyo": "/public/pdfs/ejemplo_pdf.pdf",
+    "link":""
+  },
+  {
+    "titulo": "Bot-Based Emergency Software Applications for Natural Disaster Situations",
+    "estado": "Terminado",
+    "fechaIni": "2020-10-01",
+    "fechaFin": "2020-10-01",
+    "abstract": "En situaciones de emergencia, como desastres naturales, las personas prefieren usar sus aplicaciones habituales para comunicarse y colaborar en rescates. Este trabajo explora el uso de bots para integrar aplicaciones de emergencia en plataformas de uso cotidiano, facilitando su uso en crisis. Se evaluaron tres bots: Jayma, que informa sobre personas afectadas; Ayni, que gestiona tareas de voluntarios; y Rimay, que coordina campañas y tareas de emergencia. Las aplicaciones se ejecutan en infraestructura accesible y están diseñadas para ser escalables y tolerantes a fallos. Los resultados indican que Ayni y Rimay saturan la CPU rápidamente, mientras que Jayma utiliza más memoria RAM.",
+    "autores": [
+      "Luis Veas"
+    ],
+    "participantes": [
+      { "nombre": "Luis Veas" },
+      { "nombre": "Gabriel Ovando" },
+      { "nombre": "Veronica Gil" },
+      { "nombre": "Mauricio Marin" }
+      ],
+    "galeria": [
+      "/imagen_articulos/paper04_lv_01.jpg",
+      "/imagen_articulos/paper04_lv_02.jpg",
+      "/imagen_articulos/paper04_lv_03.jpg",
+      "/imagen_articulos/paper04_lv_04.jpg"
+    ],
+    "instituciones": [
+      {
+        "nombre": "Universidad de Santiago de Chile",
+        "imagen": "/logos_articulos_detalles/usach_logo.png"
+      },
+      {
+        "nombre": "Universidad Nacional de San Luis, Argentina",
+        "imagen": "/logos_articulos_detalles/Usanluis_logo.png"
+      }
+    ],
+    "pdf": "/public/pdfs/paper04_lv.pdf",
+    "carta_de_apoyo": "/public/pdfs/ejemplo_pdf.pdf",
+    "link":""
+  },
+  {
+    "titulo": "Experimental Framework to Simulate Rescue Operations after a Natural Disaster",
+    "estado": "Terminado",
+    "fechaIni": "2020-10-01",
+    "fechaFin": "2020-10-01",
+    "abstract": "La simulación computacional es clave para evaluar el rendimiento de sistemas y planificar la capacidad de centros de datos, siendo útil en áreas como buscadores web, evacuaciones por desastres y biología computacional. Ajustar parámetros, definir escenarios y recopilar datos es complejo y requiere comparar métricas simuladas con datos reales. Este trabajo presenta un marco experimental para simular aplicaciones sociales en situaciones de desastre. Una aplicación registra voluntarios y gestiona campañas de emergencia; la otra, un repositorio de datos en MongoDB, opera en una plataforma distribuida con contenedores y bases de datos NoSQL. Validamos el simulador con datos reales de simulacros.",
+    "autores": [
+      "Luis Veas"
+    ],
+    "participantes": [
+      { "nombre": "Luis Veas" },
+      { "nombre": "Gabriel Ovando" },
+      { "nombre": "Gabriel Astudillo" },
+      { "nombre": "Veronica Gil" },
+      { "nombre": "Mauricio Marin" }
+      ],
+    "galeria": [
+      "/imagen_articulos/paper03_lv_01.jpg",
+      "/imagen_articulos/paper03_lv_02.jpg",
+      "/imagen_articulos/paper03_lv_03.jpg",
+      "/imagen_articulos/paper03_lv_04.jpg",
+      "/imagen_articulos/paper03_lv_05.jpg",
+      "/imagen_articulos/paper03_lv_06.jpg",
+      "/imagen_articulos/paper03_lv_07.jpg"
+    ],
+    "instituciones": [
+      {
+        "nombre": "Universidad de Santiago de Chile",
+        "imagen": "/logos_articulos_detalles/usach_logo.png"
+      },
+      {
+        "nombre": "Universidad de Valparaíso",
+        "imagen": "/logos_articulos_detalles/uvalpo_logo.png"
+      },
+      {
+        "nombre": "Universidad Nacional de San Luis, Argentina",
+        "imagen": "/logos_articulos_detalles/Usanluis_logo.png"
+      }
+    ],
+    "pdf": "/public/pdfs/paper03_lv.pdf",
+    "carta_de_apoyo": "/public/pdfs/ejemplo_pdf.pdf",
+    "link":""
+  },
+  {
+    "titulo": "Atacama Database: a platform of the microbiome of the Atacama Desert",
+    "estado": "Terminado",
+    "fechaIni": "2023-08-01",
+    "fechaFin": "2024-04-05",
+    "abstract": "El Desierto de Atacama es uno de los lugares más antiguos y secos de la Tierra, reconocido por su valiosa diversidad microbiana con potencial en biotecnología y conservación. Para promover la investigación y proteger sus nichos ecológicos, se ha creado un prototipo de la Base de Datos de Atacama. Esta base de datos recopila información de 2302 microorganismos, incluyendo clasificación, morfología, genoma y metabolismo, de organismos cultivados y no cultivados recolectados entre 1984 y 2016. Ofrece herramientas de búsqueda avanzadas, geolocalización de nichos y permite estudiar la ecología microbiana, dinámica de poblaciones y el impacto del cambio climático en la región. Está disponible en: https://www.atacamadb.cl.",
+    "autores": [
+      "Luis Veas"
+    ],
+    "participantes": [
+      { "nombre": "Luis Veas" },
+      { "nombre": "Carolina Contador" },
+      { "nombre": "Emilio Tapia" },
+      { "nombre": "Marcela Antipán" },
+      { "nombre": "Noemi Miranda" },
+      { "nombre": "Benjamín Ruis-Tagle" },
+      { "nombre": "Jonathan García" },
+      { "nombre": "Bárbara Andrews" },
+      { "nombre": "Mauricio Marin" },
+      { "nombre": "Cristina Dorador" },
+      { "nombre": "Juan Asenjo" }
+      ],
+    "galeria": [
+      "/imagen_articulos/paper02_lv_01.jpg",
+      "/imagen_articulos/paper02_lv_02.jpg",
+      "/imagen_articulos/paper02_lv_03.jpg",
+      "/imagen_articulos/paper02_lv_04.jpg",
+      "/imagen_articulos/paper02_lv_05.jpg"
+    ],
+    "instituciones": [
+      {
+        "nombre": "Universidad de Chile",
+        "imagen": "/logos_articulos_detalles/uch_logo.jpg"
+      },
+      {
+        "nombre": "Universidad de Antofagasta",
+        "imagen": "/logos_articulos_detalles/u_antofagasta_logo.png"
+      },
+      {
+        "nombre": "Universidad de Santiago de Chile",
+        "imagen": "/logos_articulos_detalles/usach_logo.png"
+      }
+    ],
+    "pdf": "/public/pdfs/paper02_lv.pdf",
+    "carta_de_apoyo": "/public/pdfs/ejemplo_pdf.pdf"
+  },
+  {
+    "titulo": "A methodology for performance estimation of bot-based applications for natural disasters",
+    "estado": "Terminado",
+    "fechaIni": "2023-08-01",
+    "fechaFin": "2024-04-05",
+    "abstract": "Los desastres naturales afectan gravemente los sistemas informáticos al dañar infraestructuras, lo que provoca fallos en aplicaciones críticas que deben operar de manera estable y soportar picos de uso. Este trabajo propone una metodología para predecir el rendimiento de aplicaciones de emergencia, desplegadas en plataformas distribuidas de hardware común con contenedores y orquestación. Usando modelado, simulación y aprendizaje automático, nuestra propuesta predice el rendimiento con un error entre el 2% y el 7%, validado en escenarios y aplicaciones reales en infraestructuras distribuidas.",
+    "autores": ["Luis Veas"],
+    "participantes": [
+      { "nombre": "Luis Veas" },
+      { "nombre": "Juan Ovando" },
+      { "nombre": "Carolina Bonacic" },
+      { "nombre": "Veronica Gil" },
+      { "nombre": "Mauricio Marin" }
+      ],
+    "galeria": [
+      "/imagen_articulos/paper01_lv_01.jpg",
+      "/imagen_articulos/paper01_lv_02.jpg",
+      "/imagen_articulos/paper01_lv_03.jpg",
+      "/imagen_articulos/paper01_lv_04.jpg",
+      "/imagen_articulos/paper01_lv_05.jpg",
+      "/imagen_articulos/paper01_lv_06.jpg",
+      "/imagen_articulos/paper01_lv_07.jpg"
+    ],
+    "link": "",
+    "instituciones": [
+      {
+        "nombre": "Universidad Austral de Chile",
+        "imagen": "/logos_articulos_detalles/uach_logo.png"
+      },
+      {
+        "nombre": "Universidad Nacional de San Luis, Argentina",
+        "imagen": "/logos_articulos_detalles/uach_logo.png"
+      },
+      {
+        "nombre": "Universidad de Santiago de Chile",
+        "imagen": "/logos_articulos_detalles/usach_logo.png"
+      }
+    ],
+    "pdf": "/public/pdfs/paper01_lv.pdf",
+    "carta_de_apoyo": "/public/pdfs/ejemplo_pdf.pdf"
+  },
+  {
+    "titulo": "Metodología para recomendar un cargo a informáticos chilenos",
+    "estado": "No terminado",
+    "fechaIni": "2023-08-01",
+    "fechaFin": "Actualidad",
+    "abstract": "Este artículo propone una metodología para recomendar cargos a informáticos chilenos, considerando sus habilidades, experiencia y las demandas del mercado laboral. Mediante análisis de datos e inteligencia artificial, la metodología alinea el perfil de los candidatos con roles específicos del sector TI en Chile, mejorando la correspondencia entre oferta y demanda laboral en el país.",
+    "autores": ["Diego Carmona"],
+    "participantes": [{ "nombre": "Diego Carmona" }],
+    "galeria": [
+      "/imagen_articulos/articulo01_0.png",
+      "/imagen_articulos/articulo01_1.png"
+    ],
+    "link": "",
+    "instituciones": [
+      { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/info_uach.jpg" },
+      { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/uach_logo.png" }
+    ],
+    "pdf": "/public/pdfs/ejemplo_pdf.pdf",
+    "carta_de_apoyo": "/public/pdfs/ejemplo_pdf.pdf",
+    "url_github": "https://github.com/"
+  },
+  {
+    "titulo": "Aplicación de Reinforcement Learning para mejorar la asignación de tareas en Centros de Atención Primaria de Salud",
+    "estado": "No terminado",
+    "fechaIni": "2024-08-01",
+    "fechaFin": "Actualidad",
+    "abstract": "Este artículo explora el uso de Reinforcement Learning para optimizar la asignación de tareas en Centros de Atención Primaria de Salud. La metodología busca mejorar la eficiencia en la distribución de tareas entre el personal, considerando factores como la disponibilidad de recursos y la carga de trabajo.",
+    "autores": ["Cristián Cárdenas"],
+    "participantes": [{ "nombre": "Cristián Cárdenas" }],
+    "galeria": [
+      "/imagen_articulos/articulo02_0.png",
+      "/imagen_articulos/articulo02_1.png"
+    ],
+    "link": "",
+    "instituciones": [
+      {
+        "nombre": "Institución 1",
+        "imagen": "/logos_articulos_detalles/info_uach.jpg"
+      },
+      {
+        "nombre": "Institución 2",
+        "imagen": "/logos_articulos_detalles/uach_logo.png"
+      }
+    ],
+    "pdf": "/public/pdfs/ejemplo_pdf.pdf",
+    "carta_de_apoyo": "/public/pdfs/ejemplo_pdf.pdf",
+    "url_github": "https://github.com/"
+  },
+  {
+    "titulo": "Optimización de Modelos de Aprendizaje Profundo para la Detección Temprana de Enfermedades Neurodegenerativas",
+    "estado": "No terminado",
+    "fechaIni": "2023-08-01",
+    "fechaFin": "2024-10-20",
+    "abstract": "El artículo describe un enfoque que utiliza aprendizaje profundo para mejorar la detección temprana de enfermedades neurodegenerativas. Al combinar redes neuronales convolucionales y recurrentes, los modelos optimizan el análisis de imágenes médicas y datos clínicos, logrando diagnósticos más precisos y reduciendo falsos positivos.",
+    "autores": ["RobleAustral Inc."],
+    "participantes": [
+      { "nombre": "Bastián Villanueva" },
+      { "nombre": "Renato Atencio" }
+    ],
+    "galeria": [
+      "/imagenes_articulos/ia.jpg",
+      "/imagenes_proyectos/proyectos_detalles/1.jpg",
+      "/imagenes_proyectos/proyectos_detalles/2.jpg",
+      "/imagenes_proyectos/proyectos_detalles/3.jpg",
+      "/imagenes_proyectos/proyectos_detalles/4.jpg",
+      "/imagenes_proyectos/proyectos_detalles/5.jpg"
+    ],
+    "link": "",
+    "instituciones": [
+      {
+        "nombre": "Institución 1",
+        "imagen": "/logos_articulos_detalles/nvidia_logo.png"
+      },
+      {
+        "nombre": "Institución 2",
+        "imagen": "/logos_articulos_detalles/openai_logo.png"
+      },
+      {
+        "nombre": "Institución 3",
+        "imagen": "/logos_articulos_detalles/usach_logo.png"
+      }
+    ],
+    "pdf": "/imagenes_proyectos/proyectos_pdf/proyecto_bastian.pdf",
+    "carta_de_apoyo": "/pdfs/ejemplo_pdf.pdf",
+    "url_github": "https://github.com/"
+  },
+  {
+    "titulo": "Aleatoridad en Las Vegas y Montecarlo",
+    "estado": "No terminado",
+    "fechaIni": "2023-08-01",
+    "fechaFin": "2024-10-20",
+    "abstract": "El artículo examina los algoritmos aleatorios, que emplean aleatoriedad para resolver problemas complejos eficientemente, especialmente en optimización y simulación. Destaca los algoritmos de Monte Carlo y Las Vegas, sus aplicaciones y desafíos, como la convergencia y la calidad de resultados, además de explorar futuras investigaciones en este campo.",
+    "autores": ["RobleAustral Inc."],
+    "participantes": [
+      { "nombre": "Nombre_Apellido1" },
+      { "nombre": "Nombre_Apellido1" },
+      { "nombre": "Nombre_Apellido1" }
+    ],
+    "galeria": [
+      "/imagenes_articulos/lasvegas_monte.jpg",
+      "/imagenes_proyectos/proyectos_detalles/1.jpg",
+      "/imagenes_proyectos/proyectos_detalles/2.jpg",
+      "/imagenes_proyectos/proyectos_detalles/3.jpg",
+      "/imagenes_proyectos/proyectos_detalles/4.jpg",
+      "/imagenes_proyectos/proyectos_detalles/5.jpg"
+    ],
+    "link": "",
+    "instituciones": [
+      {
+        "nombre": "Institución 1",
+        "imagen": "/logos_articulos_detalles/nvidia_logo.png"
+      },
+      {
+        "nombre": "Institución 2",
+        "imagen": "/logos_articulos_detalles/openai_logo.png"
+      },
+      {
+        "nombre": "Institución 3",
+        "imagen": "/logos_articulos_detalles/usach_logo.png"
+      }
+    ],
+    "pdf": "/imagenes_proyectos/proyectos_pdf/proyecto_bastian.pdf",
+    "url_github": "https://github.com/"
+  },
+  {
+    "titulo": "Evolución y Tendencias en la Arquitectura de Computadores: Del Diseño Clásico al Futuro",
+    "estado": "No terminado",
+    "fechaIni": "2023-08-01",
+    "fechaFin": "2024-10-20",
+    "abstract": "Este artículo examina la evolución de la arquitectura de computadores, destacando innovaciones como procesadores multinúcleo, computación en paralelo e inteligencia artificial, y su impacto en el rendimiento y la eficiencia energética. También analiza los desafíos actuales y futuras investigaciones.",
+    "autores": ["RobleAustral Inc."],
+    "participantes": [
+      { "nombre": "Nombre_Apellido1" },
+      { "nombre": "Nombre_Apellido1" },
+      { "nombre": "Nombre_Apellido1" }
+    ],
+    "galeria": [
+      "/imagenes_articulos/arqui_compu.webp",
+      "/imagenes_proyectos/proyectos_detalles/1.jpg",
+      "/imagenes_proyectos/proyectos_detalles/2.jpg",
+      "/imagenes_proyectos/proyectos_detalles/3.jpg",
+      "/imagenes_proyectos/proyectos_detalles/4.jpg",
+      "/imagenes_proyectos/proyectos_detalles/5.jpg"
+    ],
+    "link": "",
+    "instituciones": [
+      {
+        "nombre": "Institución 1",
+        "imagen": "/logos_articulos_detalles/nvidia_logo.png"
+      },
+      {
+        "nombre": "Institución 2",
+        "imagen": "/logos_articulos_detalles/openai_logo.png"
+      },
+      {
+        "nombre": "Institución 3",
+        "imagen": "/logos_articulos_detalles/usach_logo.png"
+      }
+    ]
+  }
+]

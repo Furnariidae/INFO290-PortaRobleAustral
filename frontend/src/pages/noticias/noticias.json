@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "titulo": "Felipe Córdova se Proclama Campeón de la copa PF Sub12 en Puerto Montt",
+    "imagen": "/copa_pf.jpg",
+    "resumen": "Mediante la definición a penales se definió la final de la Copa PF entre el Colegio Domingo Santa María y la Escuela Arturo Prat.",
+    "cuerpo": "En un evento deportivo regional que reunió a los mejores talentos de la X Región de Los Lagos, Felipe Córdova, integrante de Roble Austral y perteneciente al equipo Colegio Domingo Santa María, se alzó con la prestigiosa Copa PF 2014, destacándose como uno de los jugadores más valiosos de la competencia. La copa, organizada por la empresa PF Alimentos, reunió a equipos de diversas comunas de la región, generando un ambiente de sana competencia y camaradería entre los deportistas. \nEl torneo tuvo lugar en el Estadio Chinquihue y fue escenario de intensos encuentros, donde cada equipo luchó por conseguir la victoria y la clasificación al nacional en Santiago. El representante de Roble Austral demostró una sobresaliente habilidad en el campo, destacándose no solo por sus goles, sino también por su estrategia de juego y el liderazgo que mostró dentro y fuera de la cancha.\n 'Fue una experiencia increíble poder representar a Roble Austral y traer la copa a casa,' comentó el jugador. 'Este triunfo es para el equipo, los entrenadores y todos quienes nos apoyaron desde el principio. Sin ellos, esto no habría sido posible.'\n",
+    "autor": "SoyChile.cl",
+    "fecha": "14/11/2014"
+  },
+  {
+    "id": 2,
+    "titulo": "Sebastián Montecinos Obtiene Doble Medalla de Bronce en el Nacional de Lanzamientos Sub23",
+    "imagen": "/imagen_noticias/noticia_lanzamiento.jpg",
+    "resumen": "Sebastián Montecinos se llevó dos medallas de bronce en el Campeonato Nacional de Lanzamientos Sub23, destacándose en lanzamiento de disco y martillo. En esta última disciplina, compitió junto a figuras olímpicas como Gabriel Kehr y Humberto Mansilla.",
+    "cuerpo": "Sebastián Montecinos, joven atleta en ascenso, logró destacarse en el Campeonato Nacional de Lanzamientos Sub23, celebrado en Valdivia, al obtener dos medallas de bronce en las categorías de lanzamiento de disco y lanzamiento de martillo.\nEn la prueba de lanzamiento de martillo, Montecinos se enfrentó a un exigente escenario y compitió en un campeonato donde participaron grandes exponentes de nivel olímpico en categorías superiores, como Gabriel Kehr y Humberto Mansilla, ambos con destacada trayectoria internacional. La presencia de estos atletas de renombre elevó el nivel y prestigio del evento, brindando a Montecinos la oportunidad de demostrar su talento en un entorno altamente competitivo, lo cual representa un importante logro en su carrera deportiva.\nEl Campeonato Nacional de Lanzamientos Sub23 es una de las competiciones más esperadas para los jóvenes atletas que buscan destacar en disciplinas de potencia y técnica. Con sus logros en lanzamiento de disco y lanzamiento de martillo, Sebastián Montecinos ha demostrado que su dedicación y esfuerzo han dado frutos",
+    "autor": "RobleAustral",
+    "fecha": "16-10-2023"
+  },
+  {
+    "id": 3,
+    "titulo": "Instituto de Informática fortalece su planta académica con la llegada de nuevos integrantes",
+    "imagen": "/imagen_noticias/noticia_profe_luis.png",
+    "resumen": "Luis Veas y Valeria Henríquez se han unido al Instituto de Informática de la Universidad Austral de Chile, aportando su experiencia en el sector privado y en investigación.",
+    "cuerpo": "Luis Veas Castillo, Doctor en Ciencias de la Ingeniería con mención en Informática, es uno de los nuevos académicos que se han integrado al Instituto de Informática de la Universidad Austral de Chile (UACh). Con una destacada trayectoria en el sector privado, incluyendo diez años de experiencia en roles como desarrollador y jefe de proyectos en diversas instituciones, así como una etapa en IBM, Veas llega para fortalecer el cuerpo docente en la formación de ingenieros e ingenieras en informática.\nEn el ámbito académico, Veas impartirá asignaturas clave del programa, como Bases de Datos (INFO133) y Sistemas Distribuidos (INFO288), además de Sistemas Operativos (INFO198) en el segundo semestre. Su enfoque docente busca preparar a los estudiantes para enfrentar las demandas actuales de la industria, combinando su experiencia profesional con los lineamientos académicos de la UACh.\nEn cuanto a investigación, Veas tiene como áreas de interés la simulación computacional, computación paralela y distribuida, bases de datos y sistemas basados en la web. Planea continuar desarrollando estas líneas mediante la postulación a fondos de I+D+i aplicada y mediante colaboraciones con la industria y colegas de otras universidades. Su objetivo es establecer proyectos que ofrezcan soluciones útiles y aplicadas a problemáticas reales, contribuyendo tanto al crecimiento de la Universidad como al avance del sector tecnológico.\nVeas enfatiza su entusiasmo por unirse a la UACh, destacando que la Universidad, ubicada en una ciudad atractiva como Valdivia, ofrece un entorno idóneo para la investigación y una educación de calidad, además de un ambiente profesional y humano en el cual se siente honrado de poder aportar.",
+    "autor": "Maritza Uribe Higuera",
+    "fecha": "11-04-2023"
+  },
+  {
+    "id": 4,
+    "titulo": "Noticia 04",
+    "imagen": "/image.png",
+    "resumen": "este es el resumen",
+    "cuerpo": "Este es el cuerpo de la noticia",
+    "autor": "RobleAustral",
+    "fecha": "09-11-2014"
+  },
+  {
+    "id": 5,
+    "titulo": "Noticia 05",
+    "imagen": "/image.png",
+    "resumen": "este es el resumen",
+    "cuerpo": "Este es el cuerpo de la noticia",
+    "autor": "RobleAustral",
+    "fecha": "09-11-2014"
+  },
+  {
+    "id": 6,
+    "titulo": "Noticia 06",
+    "imagen": "/image.png",
+    "resumen": "este es el resumen",
+    "cuerpo": "Este es el cuerpo de la noticia",
+    "autor": "RobleAustral",
+    "fecha": "09-11-2014"
+  },{
+    "id": 7,
+    "titulo": "Noticia 07",
+    "imagen": "/image.png",
+    "resumen": "este es el resumen",
+    "cuerpo": "Este es el cuerpo de la noticia",
+    "autor": "RobleAustral",
+    "fecha": "09-11-2014"
+  },{
+    "id": 8,
+    "titulo": "Noticia 08",
+    "imagen": "/image.png",
+    "resumen": "este es el resumen",
+    "cuerpo": "Este es el cuerpo de la noticia",
+    "autor": "RobleAustral",
+    "fecha": "09-11-2014"
+  },{
+    "id": 9,
+    "titulo": "Noticia 09",
+    "imagen": "/image.png",
+    "resumen": "este es el resumen",
+    "cuerpo": "Este es el cuerpo de la noticia",
+    "autor": "RobleAustral",
+    "fecha": "09-11-2014"
+  } 
+
+]

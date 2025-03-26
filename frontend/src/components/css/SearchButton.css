@@ -1,0 +1,24 @@
+.search-container {
+  position: relative;
+}
+
+.search-results {
+  position: absolute;
+  top: 40px; /* Ajusta este valor si es necesario para que esté justo debajo del input */
+  right: 0;
+  background-color: white;
+  border: 2px solid #ccc;
+  list-style: none;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px; /* Ajusta el ancho según sea necesario */
+  z-index: 100;
+}
+
+.search-results li {
+  padding: 5px;
+}
+
+.search-results li:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,38 @@
+/* ErrorPage.css */
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+    background-color: #f8f9fa;
+  }
+  
+  .error-page h1 {
+    font-size: 8rem;
+    margin: 0;
+    color: #dc3545;
+  }
+  
+  .error-page p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .home-link {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .home-link:hover {
+    background-color: #0056b3;
+  }
+  

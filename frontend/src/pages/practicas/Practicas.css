@@ -1,0 +1,14 @@
+.Practicas_Title {
+    text-align: center;
+    font-size:2rem;
+    margin-bottom: 20px;
+  }
+  
+/* no en uso */
+.Practicas_Grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* X columnas */
+    grid-gap: 10px; /* Espacio entre las tarjetas */
+    margin-bottom: 30px;
+}
+    

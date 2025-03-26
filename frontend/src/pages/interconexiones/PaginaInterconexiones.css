@@ -1,0 +1,24 @@
+.PaginaInterconexiones_Container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 5px;
+    padding-inline: 50px;
+    margin-block: 50px;
+}
+
+.descripcion_grafico{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;;
+}
