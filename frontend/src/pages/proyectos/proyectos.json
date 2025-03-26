@@ -1,0 +1,201 @@
+[
+  {
+      "id": 2,
+      "titulo": "RobleAustral, portal de difusión",
+      "imagen": "/imagenes_proyectos/programando.jpg",
+      "resumen": "Roble Austral es un proyecto académico desarrollado en el marco del curso INFO282 Taller de Ingeniería de Software en la Universidad Austral de Chile. Tiene como objetivo...",
+      "galeria_imagenes": [
+          "/imagenes_proyectos/proyectos_detalles/6.jpg",
+          "/imagenes_proyectos/proyectos_detalles/7.webp",
+          "/imagenes_proyectos/proyectos_detalles/8.png",
+          "/imagenes_proyectos/proyectos_detalles/9.webp",
+          "/imagenes_proyectos/proyectos_detalles/10.png"
+      ],
+      "estado": "En proceso",
+      "fecha_inicio": "05-08-2024",
+      "fecha_fin": "En proceso",
+      "autor": "RobleAustral Inc.",
+      "cuerpo": "Roble Austral es un proyecto académico del curso INFO282: Taller de Ingeniería de Software de la Universidad Austral de Chile. Tiene como objetivo desarrollar una plataforma para gestionar y divulgar las actividades del grupo de I+D+i (Investigación, Desarrollo e Innovación), permitiendo registrar trabajos de título, prácticas, proyectos y artículos científicos. También busca promover colaboraciones con otras entidades.",
+      "participantes": [
+          { "nombre": "Felipe Córdova"},
+          { "nombre": "Sebastián Montecinos"},
+          { "nombre": "Renato Atencio"},
+          { "nombre": "Orlando Contreras"},
+          { "nombre": "Handel Venegas"},
+          { "nombre": "Javier Reyes"}
+      ],
+      "instituciones": [
+          { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/uach_logo.png" },
+          { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/info_uach.jpg" }
+      ],
+      "url_github": "https://github.com/robleaustral/202402_INFO282_portalrobleaustral"
+  },
+  {
+      "id": 3,
+      "titulo": "Optimización de Modelos de Aprendizaje Profundo para la Detección Temprana de Enfermedades Neurodegenerativas",
+      "imagen": "/imagenes_articulos/ia.jpg",
+      "resumen": "Este artículo presenta un enfoque innovador utilizando aprendizaje profundo para mejorar la detección temprana...",
+      "galeria_imagenes": [
+          "/imagenes_articulos/galeria/ia_01.jpg",
+          "/imagenes_articulos/galeria/ia_02.jpg",
+          "/imagenes_articulos/galeria/ia_03.jpg"
+      ],
+      "estado": "Terminado",
+      "fecha_inicio": "01-08-2023",
+      "fecha_fin": "En proceso",
+      "autor": "RobleAustral Inc.",
+      "cuerpo": "Este artículo presenta un enfoque innovador utilizando aprendizaje profundo para mejorar la detección temprana de enfermedades neurodegenerativas. Mediante la combinación de redes neuronales convolucionales y recurrentes, se optimizan los modelos para analizar imágenes médicas y datos clínicos, logrando una mayor precisión en el diagnóstico precoz. Los resultados demuestran que esta metodología puede mejorar significativamente la detección temprana y reducir falsos positivos.",
+      "participantes": [
+          { "nombre": "Nombre_Apellido"},
+          { "nombre": "Nombre_Apellido"},
+          { "nombre": "Nombre_Apellido"}
+      ],
+      "instituciones": [
+          { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/uach_logo.png" },
+          { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/uch_logo.jpg" },
+          { "nombre": "Institución 3", "imagen": "/logos_articulos_detalles/usach_logo.png" }
+      ],
+      "url_github": "https://www.google.cl/",
+      "url_proyecto": "https://citiaps.usach.cl/"
+  },
+  {
+      "id": 4,
+      "titulo": "FarmaSale un proyecto para el analisis de datos farmacologicos y emision de alertas de farmacovigilancias",
+      "imagen": "/imagenes_articulos/roble.jpg",
+      "resumen": "FarmaSafe es un proyecto desarrollado en colaboración con el centro AHSFA que busca mejorar el bienestar de las personas mediante la implementación de un...",
+      "galeria_imagenes": [
+          "/imagenes_articulos/galeria/roble_01.jpg",
+          "/imagenes_articulos/galeria/roble_02.jpg",
+          "/imagenes_articulos/galeria/roble_03.jpg"
+      ],
+      "estado": "Terminado",
+      "fecha_inicio": "01-08-2023",
+      "fecha_fin": "En proceso",
+      "autor": "RobleAustral Inc.",
+      "cuerpo":"FarmaSafe es un proyecto desarrollado en colaboración con el centro HASFa que busca mejorar el bienestar de las personas mediante la implementación de un prototipo de sistema con dos enfoques principales. El primero es la creación de un observatorio de datos para analizar las recetas médicas emitidas en los centros de atención primaria de la comuna de Valdivia, lo que permite identificar patrones y generar información útil para la gestión sanitaria. El segundo enfoque es el desarrollo de algoritmos de farmacovigilancia, destinados a detectar medicamentos potencialmente riesgosos para los pacientes que asisten a estos centros. Este prototipo está diseñado con una arquitectura de software escalable, lo que permite no solo su implementación a nivel local, sino también la posibilidad de escalarlo a nivel nacional.",
+      "participantes": [
+          { "nombre": "Nombre_Apellido"},
+          { "nombre": "Nombre_Apellido"},
+          { "nombre": "Nombre_Apellido"}
+      ],
+      "instituciones": [
+          { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/uach_logo.png" },
+          { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/uch_logo.jpg" },
+          { "nombre": "Institución 3", "imagen": "/logos_articulos_detalles/usach_logo.png" }
+      ],
+      "url_github": "https://www.uach.cl/",
+      "url_proyecto": "https://www.colocolo.cl/"
+  },
+  {
+      "id": 5,
+      "titulo": "Titulo Articulo 05",
+      "imagen": "/imagenes_articulos/roble.jpg",
+      "resumen": "Este es un ejemplo de descripción para el Articulo 05...",
+      "galeria_imagenes": [
+          "/imagenes_articulos/galeria/roble_01.jpg",
+          "/imagenes_articulos/galeria/roble_02.jpg",
+          "/imagenes_articulos/galeria/roble_03.jpg"
+      ],
+      "estado": "Terminado",
+      "fecha_inicio": "01-08-2023",
+      "fecha_fin": "En proceso",
+      "autor": "RobleAustral Inc.",
+      "cuerpo":"este es el cuerpo",
+      "participantes": [
+          { "nombre": "Nombre_Apellido"},
+          { "nombre": "Nombre_Apellido"},
+          { "nombre": "Nombre_Apellido"}
+      ],
+      "instituciones": [
+          { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/uach_logo.png" },
+          { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/uch_logo.jpg" },
+          { "nombre": "Institución 3", "imagen": "/logos_articulos_detalles/usach_logo.png" }
+      ],
+      "url_github": "https://cruzados.cl/",
+      "url_proyecto": "https://uch.cl/"
+  },
+  {
+      "id": 6,
+      "titulo": "Titulo Articulo 06",
+      "imagen": "/imagenes_articulos/roble.jpg",
+      "resumen": "Este es un ejemplo de descripción para el Articulo 06...",
+      "galeria_imagenes": [
+          "/imagenes_articulos/galeria/roble_01.jpg",
+          "/imagenes_articulos/galeria/roble_02.jpg",
+          "/imagenes_articulos/galeria/roble_03.jpg"
+      ],
+      "estado": "Terminado",
+      "fecha_inicio": "01-08-2023",
+      "fecha_fin": "En proceso",
+      "autor": "RobleAustral Inc.",
+      "cuerpo":"este es el cuerpo",
+      "participantes": [
+          { "nombre": "Nombre_Apellido"},
+          { "nombre": "Nombre_Apellido"},
+          { "nombre": "Nombre_Apellido"}
+      ],
+      "instituciones": [
+          { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/uach_logo.png" },
+          { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/uch_logo.jpg" },
+          { "nombre": "Institución 3", "imagen": "/logos_articulos_detalles/usach_logo.png" }
+      ],
+      "url_github": "https://www.github.com/usuario/proyecto",
+      "url_proyecto": "https://geoparques.robleaustral.cl/"
+  },
+  {
+      "id": 7,
+      "titulo": "Titulo Articulo 07",
+      "imagen": "/imagenes_articulos/roble.jpg",
+      "resumen": "Este es un ejemplo de descripción para el Articulo 07...",
+      "galeria_imagenes": [
+          "/imagenes_articulos/galeria/roble_01.jpg",
+          "/imagenes_articulos/galeria/roble_02.jpg",
+          "/imagenes_articulos/galeria/roble_03.jpg"
+      ],
+      "estado": "Terminado",
+      "fecha_inicio": "01-08-2023",
+      "fecha_fin": "En proceso",
+      "autor": "RobleAustral Inc.",
+      "cuerpo":"este es el cuerpo",
+      "participantes": [
+          { "nombre": "Nombre_Apellido", "linkedin": "URL_LinkedIn" },
+          { "nombre": "Nombre_Apellido", "linkedin": "URL_LinkedIn" },
+          { "nombre": "Nombre_Apellido", "linkedin": "URL_LinkedIn" }
+      ],
+      "instituciones": [
+          { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/uach_logo.png" },
+          { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/uch_logo.jpg" },
+          { "nombre": "Institución 3", "imagen": "/logos_articulos_detalles/usach_logo.png" }
+      ],
+      "url_github": "https://dpmchile.cl/",
+      "url_proyecto": "https://openai.com/"
+  },
+  {
+      "id": 8,
+      "titulo": "Titulo Articulo 08",
+      "imagen": "/imagenes_articulos/roble.jpg",
+      "resumen": "Este es un ejemplo de descripción para el Articulo 08...",
+      "galeria_imagenes": [
+          "/imagenes_articulos/galeria/roble_01.jpg",
+          "/imagenes_articulos/galeria/roble_02.jpg",
+          "/imagenes_articulos/galeria/roble_03.jpg"
+      ],
+      "estado": "Terminado",
+      "fecha_inicio": "01-08-2023",
+      "fecha_fin": "En proceso",
+      "autor": "RobleAustral Inc.",
+      "cuerpo":"este es el cuerpo",
+      "participantes": [
+          { "nombre": "Nombre_Apellido"},
+          { "nombre": "Nombre_Apellido"},
+          { "nombre": "Nombre_Apellido"}
+      ],
+      "instituciones": [
+          { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/uach_logo.png" },
+          { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/uch_logo.jpg" },
+          { "nombre": "Institución 3", "imagen": "/logos_articulos_detalles/usach_logo.png" }
+      ],
+      "url_github": "https://openai.com/",
+      "url_proyecto": "https://www.uach.cl/"
+  }
+]

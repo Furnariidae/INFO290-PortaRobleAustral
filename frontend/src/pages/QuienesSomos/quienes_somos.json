@@ -1,0 +1,15 @@
+{
+    "quienesSomos": {
+      "titulo": "¿Quiénes Somos?",
+      "contenido": "Somos un centro de investigación y desarrollo en crecimiento que busca integrar la ingeniería civil informática con otras disciplinas para generar un impacto positivo en la sociedad. Nos dedicamos a crear soluciones innovadoras que respondan a necesidades reales, desarrollando productos tecnológicos que aporten valor y resuelvan problemas concretos."
+    },
+    "mision": {
+      "titulo": "Misión",
+      "contenido": "Nuestra misión es generar un impacto tangible en la sociedad, formando ingenieros informáticos altamente capacitados, preparados para desenvolverse en cualquier sector que los requiera. A través de este proceso de formación, buscamos también crear productos innovadores que contribuyan al bienestar y desarrollo de la sociedad."
+    },
+    "vision": {
+      "titulo": "Visión",
+      "contenido": "Ser un referente en innovación dentro del campo de la ingeniería civil informática, impulsando el desarrollo de soluciones tecnológicas que transformen la industria y mejoren la calidad de vida en la sociedad."
+    }
+  }
+  

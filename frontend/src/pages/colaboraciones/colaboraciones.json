@@ -1,0 +1,45 @@
+[
+    {
+        "nombre": "CITIAPS: Inovacion en TI para proyectos sociales",
+        "links": [
+            {"correo": "CITIAPS@correo.com"},
+            {"web": "https://cl.linkedin.com/company/citiaps"}
+
+        ],
+        "fecha_ini": "01/2024",
+        "fecha_fin": "01/2024",
+        "imagen": "/logos_articulos_detalles/CITIAPS_logo.png"
+    },
+    {
+        "nombre": "Explora: Division ciencia y sociedad",
+        "links": [
+            {"correo": "Explora@correo.com"},
+            {"web": "https://www.explora.cl/rios/"}
+
+        ],
+        "fecha_ini": "01/2024",
+        "fecha_fin": "01/2024",
+        "imagen": "/logos_articulos_detalles/Explora_logo.png"
+    },
+    {
+        "nombre": "Saesa",
+        "links":[   
+            {"correo": "saesa@gmail.com"},
+            {"web": "https://web.gruposaesa.cl/web/saesa"}
+
+        ],
+        "fecha_ini": "01/2024",
+        "fecha_fin": "01/2024",
+        "imagen": "/logos_articulos_detalles/saesa_logo.png"
+    },
+    {
+        "nombre": "Centro I+D HASFa",
+        "links":[
+            {"correo": "hasfa@gmail.com"},
+            {"web": "https://www.hasfa.cl/"}
+        ],
+        "fecha_ini": "01/2024",
+        "fecha_fin": "01/2024",
+        "imagen": "/logos_articulos_detalles/hasfa_logo.png"
+    }
+]

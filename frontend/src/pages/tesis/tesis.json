@@ -1,0 +1,300 @@
+{
+    "postgrado": [
+    {
+        "id": 1,
+        "titulo": "Tesis Postgrado 01",
+        "autor": "Autor Postgrado 01",
+        "fecha_inicio": "05/08/2023",
+        "fecha_fin": "04/11/2024",
+        "estado": "Finalizada",
+        "resumen": "Este es el resumen de la tesis de postgrado 01",
+        "pdf": "/pdfs/ejemplo_pdf.pdf",
+        "carta_de_apoyo": "/pdfs/ejemplo_pdf.pdf",
+        "url_github": "https://github.com/",
+        "galeria_imagenes": [
+            "/imagenes_tesis/postgrado/hw02.png",
+            "/imagenes_tesis/postgrado/image01.png",
+            "/imagenes_tesis/postgrado/image02.png",
+            "/imagenes_tesis/postgrado/image03.png"
+        ],
+        "participantes": [
+            { "nombre": "Renato Atencio"},
+            { "nombre": "Felipe Córdova"},
+            { "nombre": "Handel Venegas"}
+        ],
+        "patrocinantes": [
+            { "nombre": "Maria Eliana de la Maza"},
+            { "nombre": "Hector Ferrada"},
+            { "nombre": "Jorge Maturana"}
+        ],
+        "copatrocinantes": [
+            { "nombre": "Maria Eliana de la Maza"},
+            { "nombre": "Hector Ferrada"},
+            { "nombre": "Jorge Maturana"}
+        ],
+        "instituciones": [
+            { "nombre": "Institución 1", "imagen": "/imagenes_instituciones/uach_logo.png" },
+            { "nombre": "Institución 2", "imagen": "/imagenes_instituciones/uch_logo.jpg" },
+            { "nombre": "Institución 3", "imagen": "/imagenes_instituciones/usach_logo.png" }
+        ]
+    }
+    ],
+    "pregrado": [
+        {
+            "id":0,
+            "titulo":"Sistema para la digitalización de parques turísticos por medio de información georreferenciada y códigos QR a través de una aplicación web progresiva - Geoparques",
+            "autor":"Bastián Villanueva",
+            "fecha_inicio": "01/08/2023",
+            "fecha_fin": "Actualidad",
+            "estado":"Finalizada",
+            "resumen":"Geoparques es una plataforma digital para parques turísticos que reemplaza las señaléticas físicas con información georreferenciada sobre especies en un mapa interactivo. Los usuarios pueden acceder a la información activando la localización de su dispositivo o escaneando códigos QR. También cuenta con una aplicación para administradores, quienes pueden gestionar la información y recibir sugerencias. El proyecto incluyó planificación, desarrollo de software y pruebas de usabilidad, confirmando que la aplicación es efectiva y fácil de usar según el System Usability Scale.",
+            "pdf":"/pdfs/proyecto_bastian.pdf",
+            "carta_de_apoyo":"/pdfs/ejemplo_pdf.pdf",
+            "url_github":"https://github.com/",
+            "galeria_imagenes":[
+                    "/imagenes_tesis/pregrado/geoparques_00.png",
+                    "/imagenes_tesis/pregrado/geoparques_01.jpg",
+                    "/imagenes_tesis/pregrado/geoparques_02.jpg",
+                    "/imagenes_tesis/pregrado/geoparques_03.jpg",
+                    "/imagenes_tesis/pregrado/geoparques_04.jpg",
+                    "/imagenes_tesis/pregrado/geoparques_05.jpg"
+                ],
+            "participantes":[
+                {"nombre":"Bastián Villanueva"}
+                ],
+            "patrocinantes": [
+                { "nombre": "Luis Veas"}
+                ],
+            "copatrocinantes": [
+                { "nombre": "Luis Veas"}
+                ],
+            "instituciones":[
+                {"nombre":"Institución 1","imagen":"/imagenes_instituciones/uach_logo.png"},
+                {"nombre":"Institución 2","imagen":"/imagenes_instituciones/uc_logo.png"},
+                {"nombre":"Institución 3","imagen":"/imagenes_instituciones/usach_logo.png"}
+                ]
+        },
+        {
+            "id": 1,
+            "titulo": "Un sistema para disponibilizar información turística de parques mediante beacons - GeoSensores",
+            "autor": "Bladimir Pardo",
+            "fecha_inicio": "05/08/2023",
+            "fecha_fin": "04/11/2024",
+            "estado": "No terminada",
+            "resumen": "Esta tesis presenta el diseño e implementación de un sistema para ofrecer información turística en parques mediante el uso de beacons o geosensores. La tecnología permite a los visitantes recibir datos relevantes sobre el entorno, tales como rutas, puntos de interés y recomendaciones en tiempo real, directamente en sus dispositivos móviles. El sistema facilita una experiencia turística más interactiva y personalizada, mejorando el acceso a la información sin necesidad de conexión a internet. Los resultados muestran que el uso de beacons contribuye a una gestión turística más eficiente y a una experiencia enriquecida para los visitantes de parques.",
+            "carta_de_apoyo": "/pdfs/ejemplo_pdf.pdf",
+            "url_github": "https://github.com/",
+            "galeria_imagenes": [
+                "/imagenes_tesis/pregrado/pregrado01_0.png",
+                "/imagenes_tesis/pregrado/pregrado01_1.png",
+                "/imagenes_tesis/pregrado/pregrado01_2.png"
+            ],
+            "participantes": [
+                { "nombre": "Bladimir Pardo"},
+                { "nombre": "Luis Veas"}
+            ],
+            "patrocinantes": [
+                { "nombre": "Luis Veas"}
+            ],
+            "copatrocinantes": [
+                { "nombre": "Luis Veas"}
+            ],
+            "instituciones": [
+                { "nombre": "Institución 1", "imagen": "/imagenes_instituciones/uach_logo.png" },
+                { "nombre": "Institución 2", "imagen": "/imagenes_instituciones/info_uach.jpg" }            ]
+        },
+        {
+            "id": 2,
+            "titulo": "Certificación de cuadratura del proceso de liquidación de órdenes de compra de selles en Walmart Marketplace",
+            "autor": "Sebastián Sanhueza",
+            "fecha_inicio": "05/08/2023",
+            "fecha_fin": "04/11/2024",
+            "estado": "No terminada",
+            "resumen": "Esta tesis desarrolla un sistema de certificación para verificar la cuadratura en el proceso de liquidación de órdenes de compra de sellers en Walmart Marketplace. El objetivo es asegurar la exactitud en los pagos y la correspondencia entre las transacciones procesadas y los montos liquidados. Mediante herramientas de auditoría y control de datos, el sistema busca reducir errores en la liquidación y mejorar la transparencia en las operaciones financieras del Marketplace. Los resultados muestran que la certificación contribuye a una mayor confianza en el proceso y facilita la gestión financiera eficiente.",
+            "url_github": "https://github.com/",
+            "galeria_imagenes": [
+                "/imagenes_tesis/pregrado/pregrado02_0.png",
+                "/imagenes_tesis/pregrado/pregrado02_1.png"
+            ],
+            "participantes": [
+                { "nombre": "Sebastián Sanhueza"},
+                { "nombre": "Luis Veas"}
+            ],
+            "patrocinantes": [
+                { "nombre": "Luis Veas"}
+            ],
+            "copatrocinantes": [
+                { "nombre": "Luis Veas"}
+            ],
+            "instituciones": [
+                { "nombre": "Institución 1", "imagen": "/imagenes_instituciones/uach_logo.png" },
+                { "nombre": "Institución 2", "imagen": "/imagenes_instituciones/info_uach.jpg" }            ]
+        },
+        {
+            "id": 3,
+            "titulo": "Sistema de gestión de eventos basado en blockchain para validación y control de acceso",
+            "autor": "Franco Jiménez",
+            "fecha_inicio": "05/08/2023",
+            "fecha_fin": "04/11/2024",
+            "estado": "No terminada",
+            "resumen": "Esta tesis propone un sistema de gestión de eventos basado en blockchain para mejorar la validación y control de acceso en eventos. La solución utiliza tecnología de blockchain para registrar y verificar las entradas de los asistentes de forma segura y descentralizada, reduciendo riesgos de fraude y mejorando la eficiencia en el control de acceso. Los resultados evidencian que este sistema proporciona una mayor confiabilidad y transparencia en la administración de eventos, optimizando la experiencia tanto para organizadores como para asistentes.",
+            "pdf": "/pdfs/ejemplo_pdf.pdf",
+            "galeria_imagenes": [
+                "/imagenes_tesis/pregrado/pregrado03_0.png",
+                "/imagenes_tesis/pregrado/pregrado03_1.png",
+                "/imagenes_tesis/pregrado/pregrado03_2.png"
+            ],
+            "participantes": [
+                { "nombre": "Franco Jiménez"},
+                { "nombre": "Luis Veas"}
+            ],
+            "patrocinantes": [
+                { "nombre": "Luis Veas"}
+            ],
+            "copatrocinantes": [
+                { "nombre": "Luis Veas"}
+            ],
+            "instituciones": [
+                { "nombre": "Institución 1", "imagen": "/imagenes_instituciones/uach_logo.png" },
+                { "nombre": "Institución 2", "imagen": "/imagenes_instituciones/info_uach.jpg" }            ]
+        },
+        {
+            "id": 4,
+            "titulo": "Trabajo de Titulo 05",
+            "autor": "Autor Pregrado 05",
+            "fecha_inicio": "05/08/2023",
+            "fecha_fin": "04/11/2024",
+            "estado": "Finalizada",
+            "resumen": "Este es el resumen de la tesis de pregrado 05",
+            "carta_de_apoyo": "/pdfs/ejemplo_pdf.pdf",
+            "galeria_imagenes": [
+                "/imagenes_prueba/image01.png",
+                "/imagenes_prueba/graficos03.png",
+                "/imagenes_prueba/hw01.png",
+                "/imagenes_prueba/graficos04.png"
+            ],
+            "participantes": [
+                { "nombre": "Renato Atencio"},
+                { "nombre": "Gustavo Reyes"},
+                { "nombre": "Diego Carmona"}
+            ],
+            "patrocinantes": [
+                { "nombre": "Maria Eliana de la Maza"},
+                { "nombre": "Hector Ferrada"},
+                { "nombre": "Jorge Maturana"}
+            ],
+            "copatrocinantes": [
+                { "nombre": "Maria Eliana de la Maza"},
+                { "nombre": "Hector Ferrada"},
+                { "nombre": "Jorge Maturana"}
+            ],
+            "instituciones": [
+                { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/uach_logo.png" },
+                { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/uch_logo.jpg" },
+                { "nombre": "Institución 3", "imagen": "/logos_articulos_detalles/usach_logo.png" }
+            ]
+        },
+        {
+            "id": 5,
+            "titulo": "Tesis Pregrado 06",
+            "autor": "Autor Pregrado 06",
+            "fecha_inicio": "05/08/2023",
+            "fecha_fin": "04/11/2024",
+            "estado": "En progreso",
+            "resumen": "Este es el resumen de la tesis de pregrado 06",
+            "galeria_imagenes": [
+                "/imagenes_prueba/ia01.png",
+                "/imagenes_prueba/graficos02.png",
+                "/imagenes_prueba/hw04.png",
+                "/imagenes_prueba/graficos01.png"
+            ],
+            "participantes": [
+                { "nombre": "Renato Atencio"},
+                { "nombre": "Alex Garnica"},
+                { "nombre": "Estefano Espinoza"}
+            ],
+            "patrocinantes": [
+                { "nombre": "Maria Eliana de la Maza"},
+                { "nombre": "Hector Ferrada"},
+                { "nombre": "Jorge Maturana"}
+            ],
+            "copatrocinantes": [
+                { "nombre": "Maria Eliana de la Maza"},
+                { "nombre": "Hector Ferrada"},
+                { "nombre": "Jorge Maturana"}
+            ],
+            "instituciones": [
+                { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/uach_logo.png" },
+                { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/uch_logo.jpg" },
+                { "nombre": "Institución 3", "imagen": "/logos_articulos_detalles/usach_logo.png" }
+            ]
+        },
+        {
+            "id": 6,
+            "titulo": "Tesis Pregrado 07",
+            "autor": "Autor Pregrado 07",
+            "fecha_inicio": "05/08/2023",
+            "fecha_fin": "04/11/2024",
+            "estado": "No terminada",
+            "resumen": "Este es el resumen de la tesis de pregrado 07",
+            "url_github": "https://github.com/",
+            "galeria_imagenes": [
+                "/imagenes_prueba/hw04.png"
+            ],
+            "participantes": [
+                { "nombre": "Renato Atencio"},
+                { "nombre": "Gerson Andrade"},
+                { "nombre": "Diego Carmona"}
+            ],
+            "patrocinantes": [
+                { "nombre": "Maria Eliana de la Maza"},
+                { "nombre": "Hector Ferrada"},
+                { "nombre": "Jorge Maturana"}
+            ],
+            "copatrocinantes": [
+                { "nombre": "Maria Eliana de la Maza"},
+                { "nombre": "Hector Ferrada"},
+                { "nombre": "Jorge Maturana"}
+            ],
+            "instituciones": [
+                { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/uach_logo.png" },
+                { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/uch_logo.jpg" },
+                { "nombre": "Institución 3", "imagen": "/logos_articulos_detalles/usach_logo.png" }
+            ]
+        },
+        {
+            "id": 8,
+            "titulo": "Tesis Pregrado 08",
+            "autor": "Autor Pregrado 08",
+            "fecha_inicio": "05/08/2023",
+            "fecha_fin": "04/11/2024",
+            "estado": "Finalizada",
+            "resumen": "Este es el resumen de la tesis de pregrado 08",
+            "galeria_imagenes": [
+                "/imagenes_prueba/ia03.png",
+                "/imagenes_prueba/hw01.png"
+            ],
+            "participantes": [
+                { "nombre": "Renato Atencio"},
+                { "nombre": "Jorge Gonzalez"},
+                { "nombre": "Rentato Atencio"}
+            ],
+            "patrocinantes": [
+                { "nombre": "Maria Eliana de la Maza"},
+                { "nombre": "Hector Ferrada"},
+                { "nombre": "Jorge Maturana"}
+            ],
+            "copatrocinantes": [
+                { "nombre": "Maria Eliana de la Maza"},
+                { "nombre": "Hector Ferrada"},
+                { "nombre": "Jorge Maturana"}
+            ],
+            "instituciones": [
+                { "nombre": "Institución 1", "imagen": "/logos_articulos_detalles/uach_logo.png" },
+                { "nombre": "Institución 2", "imagen": "/logos_articulos_detalles/uch_logo.jpg" },
+                { "nombre": "Institución 3", "imagen": "/logos_articulos_detalles/usach_logo.png" }
+            ]
+        }
+    ]
+  }
+  

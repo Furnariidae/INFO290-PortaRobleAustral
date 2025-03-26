@@ -1,0 +1,86 @@
+.footer {
+  height: 120px;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.footer-content {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.footer-content ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0;
+}
+
+.footer-content p {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Ajuste de tamaño del botón */
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 2.5rem; /* Cambiado para un tamaño más pequeño (24px + padding) */
+  height: 2.5rem; /* Cambiado para un tamaño más pequeño (24px + padding) */
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2.5rem; /* Ajustado para centrar el ícono verticalmente */
+  border-radius: 1.25rem;
+  transition: all 0.5s ease;
+  margin-right: 15px;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover {
+  transform: rotate(360deg);
+  background-color: #fefefe;
+  color: black;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background-color: #e1306c;
+}
+
+.rounded-social-buttons .social-button.outlook {
+  background-color: #0078d4;
+}
+
+/* Tamaño del ícono ajustado a 24px */
+.rounded-social-buttons .social-button i {
+  font-size: 24px; /* Cambiar el tamaño del ícono a 24px */
+  line-height: 2.5rem; /* Alinear el ícono verticalmente */
+}

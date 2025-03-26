@@ -1,0 +1,158 @@
+.noticia-detalle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  max-width: 100%;
+  animation: fadeInUp 1s ease-in-out forwards; /* Aplica la animación */
+  animation-delay: calc(var(--order) * 0.1s);
+}
+
+.noticia-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.noticia-imagen {
+  width: 1000px;
+  height: 600px;
+  object-fit: cover;
+  margin-top: 40px;
+  border-radius: 50px;
+  /* Borde eliminado */
+}
+
+.noticia-carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 1000px; /* Ajusta al tamaño máximo de la imagen */
+  margin: 0 auto;
+}
+
+.carrusel-btn {
+  position: absolute;
+  top: 50%; /* Centrado verticalmente */
+  transform: translateY(-50%); /* Ajusta para centrar exactamente */
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.carrusel-btn.prev {
+  left: 2%; /* Relativo al contenedor */
+}
+
+.carrusel-btn.next {
+  right: 2%; /* Relativo al contenedor */
+}
+
+.carrusel-indicadores {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.carrusel-indicador {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bbb;
+  cursor: pointer;
+}
+
+.carrusel-indicador.active {
+  background-color: #717171;
+}
+
+.noticia-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente los elementos dentro del contenedor */
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 40px;
+}
+
+.noticia-info .fa-x {
+  color: initial;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 10px; /* Añadir padding para hacerlo más grande */
+  border-radius: 4px; /* Un borde sutil para mantener esquinas ligeramente redondeadas */
+}
+
+.noticia-info .fa-x:hover {
+  color: white; /* Cambia el color del ícono a blanco */
+  background-color: #c9302c; /* Cambia el fondo a rojo */
+  border-radius: 4px; /* Mantener esquinas ligeramente redondeadas */
+}
+
+.noticia-titulo {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 10px 0;
+  width: 95%; /* Mantiene el 50% de ancho */
+  text-align: center; /* Alinea el texto del título */
+}
+
+.noticia-meta {
+  display: flex;
+  justify-content: center; /* Distribuye los elementos a cada extremo */
+  gap: 30%;
+  width: 60%; /* Se asegura de que ocupe todo el ancho disponible */
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.noticia-autor, .noticia-fecha {
+  font-size: 0.9rem;
+  color: #808080;
+  display: flex;
+  align-items: center;
+}
+
+.margin-icon {
+  margin-left: 5px;
+}
+
+.icono-img {
+  width: 20px;
+}
+
+.noticia-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.noticia-link a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.noticia-cuerpo {
+  width: 100%;
+  max-width: 800px;
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-top: 0px;
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 40px;
+  border-radius: 0px 0px 20px 20px;
+}

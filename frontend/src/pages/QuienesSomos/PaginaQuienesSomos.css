@@ -1,0 +1,226 @@
+.quienes-somos-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    padding: 20px;
+    margin: 30px auto; /* Centra la sección y agrega espacio automático en los laterales */
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ccc;
+    animation: fadeInUp 1s ease-in-out forwards;
+    animation-delay: calc(var(--order) * 0.1s);
+}
+
+/* Descripción */
+.descripcion-container {
+    text-align: center;
+    margin-bottom: 40px; /* Aumentamos el espacio inferior para mayor separación */
+}
+
+.descripcion-container h4 {
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.descripcion-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+    padding-inline: 50px;
+}
+
+/* Misión y Visión */
+.mision-vision-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px; /* Añadimos más espacio entre secciones */
+}
+
+.mision-container, .vision-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    border: 2px solid #ccc;
+}
+
+.mision-container h4, .vision-container h4 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.mision-container p, .vision-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    padding-inline: 10px;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .mision-vision-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* Ajustes de alineación para los iconos */
+.descripcion-container h4, .mision-container h4, .vision-container h4 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.descripcion-container h4 svg {
+    position: relative;
+    top: 0.15em;
+}
+
+.mision-container h4 svg, .vision-container h4 svg {
+    position: relative;
+    top: 0;
+}
+
+/* CSS para Nuestro Equipo */
+
+.colaboration-content .title-container h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%; 
+    color: black;
+}
+
+
+.colaboration-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    align-self: center;
+    margin-bottom: 60px; /* Aumentamos el margen inferior para evitar que esté demasiado cerca del footer */
+    animation: fadeInUp 1s ease-in-out forwards;
+    animation-delay: calc(var(--order) * 0.1s);
+}
+
+.colaboration-content h1 {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    color: black;
+    margin-bottom: 40px; /* Aumentamos el espacio entre el título y el carrusel */
+}
+
+.colaboration-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    align-self: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 30px;
+}
+
+.colaborador-card {
+    width: 600px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid #ccc;
+}
+
+
+
+
+/*esto es para el accordion, lo anterior del tsx es lo mismo de aqui para arriba*/
+
+
+
+
+
+
+.accordion-container {
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .accordion-header {
+    background: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .accordion-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; 
+}
+  
+  .accordion-icon {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+  }
+
+  .accordion-body {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-out; /* Suaviza solo la apertura */
+    background-color: #fff;
+    padding: 0 20px;
+  }
+  
+  .accordion-body.open {
+    max-height: 200px; /* Ajustar según el contenido */
+    padding: 20px;
+    transition: max-height 0.5s ease-in; /* Suaviza solo el cierre */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .accordion-body.open {
+      max-height: 300px; /* Adjust based on content and screen size */
+    }
+  }
+
+  .resaltado {
+    animation: resaltar 1.5s ease-in-out 2; /* La animación ahora dura 1.5 segundos y se ejecuta solo una vez */
+    border: 2px solid #007BFF;
+  }
+  
+  @keyframes resaltar {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
+    100% {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0, 123, 255, 1);
+    }
+  }
+
+  .accordion-arrow {
+    margin-left: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-arrow.open {
+    transform: rotate(180deg); /* Rotar la flecha cuando el acordeón esté abierto */
+  }
+  
+  
+  
+  

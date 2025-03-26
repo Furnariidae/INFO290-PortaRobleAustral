@@ -1,0 +1,162 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+:root {
+  --color1: #407b33;
+  --color2: #639c54;
+  --color3: #86bd76;
+  --color4: #a9de97;
+  --color5: #ccffb8;
+  --color6: #e4e4e5;
+  --color7: #bebebe;
+  --colorWeb: #007BFF;
+  --colorGithub: #333;
+}
+
+.TPCard_Container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeInUp 1s ease-in-out forwards; /* Aplica la animación */
+  animation-delay: calc(var(--order) * 0.1s); /* Retardo progresivo */
+}
+
+.TPCard_Container .section {
+  flex: 1;
+  margin: 0 10px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding-inline: 60px;
+  min-width: 500px;
+  max-width: 700px;
+  width: 700px;
+  border:none;
+}
+
+.TPCard_Container .section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.TPCard_Container .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Tarjeta de cada tesis */
+.TPCard_Container .card-tesis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.TPCard_Container .card-title {
+  font-size: 1.5em; /* Título más grande */
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.TPCard_Container .card-summary{
+  font-size: 0.9rem;
+  color: #444;
+  font-style: italic;
+  text-align: justify;
+}
+
+.TPCard_Container .card-info-tesis {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em; /* Tamaño más pequeño para autor y fecha */
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.TPCard_Container .card-author {
+  font-style: italic;
+  margin-left: 5px;
+}
+
+.TPCard_Container .card-date {
+  margin-left: 5px;
+}
+
+.TPCard_Container .card-status-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #978b8b; /* Línea separadora */
+}
+
+.TPCard_Container .card-status{
+  font-size: 1em;
+  color: #333;
+  margin-left: 5px;
+}
+
+.TPCard_Container .ver-detalle-button{
+  display: block;
+  padding-block: 5px;
+  padding-inline: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--color2);/*#71913E; */
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 31.67px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.TPCard_Container .ver-detalle-button:hover {
+  background-color: var(--color1);
+}
+
+.TPCard_Container .imagenes-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 00px;
+}
+
+.TPCard_Container .tesis-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.TPCard_Container .tipo{
+  /* background-color: var(--color2);
+  color: white; */
+  background-color: white;
+  font-weight: bold;
+  color: var(--color1);
+  border: 2px solid var(--color1);
+  padding: 5px;
+  width: 70px;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  opacity: 0.8;
+}

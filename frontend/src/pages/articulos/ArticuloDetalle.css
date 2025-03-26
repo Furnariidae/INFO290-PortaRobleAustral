@@ -1,0 +1,227 @@
+:root {
+  --color1: #407b33;
+  --color2: #639c54;
+  --color3: #86bd76;
+  --color4: #a9de97;
+  --color5: #ccffb8;
+  --color6: #e4e4e5;
+  --color7: #bebebe;
+  --color8: #c9302c;
+  --colorWeb: #007BFF;
+  --colorGithub: #333;
+}
+
+.articulo-detalle {
+  width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease-in-out forwards;
+  background-color: white;
+  margin-block: 50px;
+}
+
+.articulo-detalle .fa-x {
+  color: initial;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 10px; /* Añadir padding para hacerlo más grande */
+  border-radius: 4px; /* Un borde sutil para mantener esquinas ligeramente redondeadas */
+}
+
+.articulo-detalle .fa-x:hover {
+  color: white; /* Cambia el color del ícono a blanco */
+  background-color: var(--color8); /* Cambia el fondo a rojo */
+  border-radius: 4px; /* Mantener esquinas ligeramente redondeadas */
+}
+
+.articulo-detalle h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+.articulo-detalle .info-superior {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 1.4em;
+}
+
+.info-superior .estado-container,
+.info-superior .fecha-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.articulo-detalle .fecha-inicio, .fecha-fin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-superior .estado-container .fa-check-circle {
+  color: green;
+}
+
+.info-superior .estado-container .fa-hourglass-half {
+  color: gray;
+}
+
+.info-superior .estado-container .fa-times-circle {
+  color: red;
+}
+
+.info-superior .fecha-container .fa-calendar-alt {
+  margin-right: 10px;
+}
+
+.articulo-detalle .galeria-resumen-container{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.articulo-detalle .cuerpo-container {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.articulo-detalle .cuerpo-container h2 {
+  font-size: 1.8em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.articulo-detalle .cuerpo-container p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.articulo-detalle .cuerpo-container .title-container {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.articulo-detalle .cuerpo-container .icon {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.articulo-detalle .acciones {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.articulo-detalle .acciones a {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  width: 150px;
+  justify-content: center;
+}
+
+.articulo-detalle .solicitar-pdf, .carta-apoyo {
+  background-color: var(--color1);
+  color: white;
+}
+
+.articulo-detalle .github-boton {
+  background-color: var(--colorGithub); 
+  color: white;
+}
+
+.articulo-detalle .acciones a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.articulo-detalle .participantes, .instituciones {
+  margin-bottom: 40px;
+}
+
+.articulo-detalle .participantes h2, .instituciones h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.articulo-detalle .personas-grid, .instituciones-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.articulo-detalle .persona, .institucion {
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.1em;
+  transition: all 0.3s ease;
+}
+
+.articulo-detalle .persona:hover, .institucion:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.articulo-detalle .institucion img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+
+/*Icono de link para quienes somos*/
+
+.articulo-detalle .link-icon {
+  color: #007BFF; /* Color azul para el icono de link */
+  transition: color 0.3s ease;
+}
+
+.articulo-detalle .link-icon:hover {
+  color: #0056b3; /* Cambia de color cuando se pasa el mouse */
+}
+
+
+/* Para icono de instituciones */
+
+.articulo-detalle .title-container {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el texto y el icono */
+}
+
+.articulo-detalle .icon {
+  margin-left: 8px; /* Espacio entre el texto y el icono */
+  display: flex; /* Asegura que el icono se alinee correctamente */
+  align-items: center; /* Alinea el icono verticalmente */
+}
+
+
+
+@media (max-width: 768px) {
+  .contenido-principal {
+    flex-direction: column;
+  }
+
+  .personas-grid, .instituciones-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

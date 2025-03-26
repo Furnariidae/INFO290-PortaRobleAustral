@@ -1,0 +1,305 @@
+.NavBar_Container{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    text-emphasis: none;
+    background-color: white;
+}
+
+.NavBar_Logo_Container img{
+    width: 300px;
+    margin: 10px 0 10px 10px;
+} 
+
+
+/* Esconder Barra Vertical */
+.VerticalNav_Container{
+    display: none;
+}
+
+/* Desing Botones del Nav */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px 10px 10px 0;  /* top izq bot der */
+    width: 100%;
+    min-height: 90px;
+}
+
+nav ul li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    position: relative;
+}
+
+li:hover{
+    background-color: #e1e1e1;
+}
+/* Estilo para el ítem seleccionado */
+li.selected {
+    background-color: #e1e1e1;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* Desing Barra Horizontal (En Dispositivos grandes) */
+.HorizontalNav{
+    display: flex;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    display: flex;
+}
+
+
+.NavBar_Container input::placeholder{
+    opacity: 1;
+}
+
+.NavBar_Container input{
+    color: black;
+    flex: 8;
+    height: 30px;
+    border: transparent;
+}
+
+.NavBar_Container button{
+    cursor: pointer;
+    max-width: 45px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: transparent;
+} 
+
+.NavBar_Container button:hover{
+    background-color: #e1e1e1;
+}
+
+.VerticalNav_MenuIcon{
+    display: none;
+}
+
+/* Contenedor de barra de busqueda y resultados */
+.search_related_container{
+    position: absolute;
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    width: 310px;
+    top: 120px;
+    right: 5px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+/* Barra de busqueda */
+.search_container{
+    padding: 5px;
+    width: auto;
+    margin: 5px;
+    display: flex;
+    z-index: 1;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    gap: 5px;
+}
+
+
+/* Filtros */
+.settings_container {
+    padding: 5px;
+    margin: 5px;
+    margin-top: 0px;
+    width: auto;
+    background-color: white;
+    z-index: 3;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.settings_dropdown_section {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.setting_tag{
+    text-align: end;
+    font-weight: bold;
+    user-select: none;
+}
+
+.lista_tipoPublicacion {
+    position: absolute;
+    right: -6px;
+    top: 22px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: auto;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5px;
+    margin: 0px;
+}
+
+.lista_tipoPublicacion li:hover{
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.setting_tag:hover{
+    background-color: #ccc;
+}
+
+.lista_tipoPublicacion li {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 0;
+    height: auto;
+    user-select: none;
+}
+
+.lista_tipoPublicacion li input {
+    margin: 0;
+    margin-top: 4px;
+    margin-right: 1px;
+    margin-left: 5px;
+    height: auto;
+    padding: 0;
+    scale: 1;
+}
+
+.search_recommendations{
+    position: relative;
+    padding: 5px;
+    width: auto;
+    margin: 5px;
+    margin-top: 0px;
+    background-color: white;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: end;
+    font-weight: bold;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.search_recommendations .recommendation_item:hover{
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1450px) {
+
+    .VerticalNav_MenuIcon{
+        display: block;
+        position: absolute;
+        top: 25;
+        right: 0;
+        align-self: center;
+        scale: 2.5;
+        margin-right: 30px;
+    }
+
+    .HorizontalNav_Container{
+        display: none;
+    }
+
+    .VerticalNav_Container{
+        display: block;
+    }
+
+    .VerticalNav_Content{
+        z-index: 999;
+        height: 1000px;
+        background-color: white;
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        width: 300px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .VerticalNav_Content ul{
+        padding: 0;
+    }
+
+    .VerticalNav_Content ul li{
+        display: flex;
+        margin: 0;
+        padding-left: 5px;
+        text-align: left;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .dropdown-menu{
+        position: relative;
+        left: 0;
+        margin-top: 50px;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
+    .search_related_container{
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .VerticalNav_Content{
+        width: 100%;
+    }
+}

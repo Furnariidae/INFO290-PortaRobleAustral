@@ -1,0 +1,90 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+  
+.card .title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    min-height: 140px;
+    max-height: 140px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.card .image {
+    width: 85%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.card .description{
+    width: 85%;
+    text-align: justify;
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    min-height: 120px; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.card .card-info {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75em;
+    color: #999;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+  
+.card .author {
+    font-style: italic;
+    margin-left: 5px;
+}
+  
+.card .date {
+    margin-left: 5px;
+}
+
+/* .card .ver-mas-button {
+    padding-inline: 30px    ;
+    padding-block: 10px;
+    border-radius: 8px;
+    background-color: #71913E;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    border: none;
+  }
+
+.card .ver-mas-button:hover{
+    background-color: #526d26;
+} */

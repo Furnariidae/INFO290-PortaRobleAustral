@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   backend:
     build:
@@ -8,16 +10,38 @@ services:
       - "4008:4008"
     networks:
       - redroble
+    depends_on:
+      - mongo
 
   frontend:
     build:
-      context: ./frontend/robleaustral
+      context: ./frontend
       dockerfile: Dockerfile
     container_name: robleaustral_front
     ports:
       - "3008:3008"
     networks:
       - redroble
+
+  mongo:
+    build: ./database
+    container_name: robleaustral_db
+    ports:
+      - "27017:27017"
+    networks:
+      - redroble
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: robleAustral
+      MONGO_INITDB_ROOT_PASSWORD: robleaustral123
+    volumes:
+      - ./database/dump:/dump
+      - ./database/init-mongo.sh:/docker-entrypoint-initdb.d/init-mongo.sh
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "mongo", "--eval", "db.runCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
 volumes:
   data:

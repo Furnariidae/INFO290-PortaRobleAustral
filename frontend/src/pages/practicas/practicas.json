@@ -1,0 +1,146 @@
+{
+    "iniciales": [
+        {
+            "id": 1,
+            "titulo": "Práctica Inicial 1",
+            "resumen": "Procesamiento y analisis de datos sobre farmacovigilancia en centro I+D HASFa.",
+            "autor": "Renato Atencio, Orlando Contreras, Felipe Sepulveda",
+            "fecha_inicio": "12/04/2023",
+            "fecha_fin": "22/01/2024",
+            "estado": "Finalizada",
+            "pdf": "/pdfs/ejemplo_pdf.pdf",
+            "galeria_imagenes": [
+                "/logos_articulos_detalles/hasfa_logo.png"
+            ],
+            "participantes": [
+                {"nombre": "Renato Atencio"},
+                {"nombre": "Orlando Contreras"},
+                {"nombre": "Felipe Sepúlveda"}
+            ],
+            "instituciones": [
+                {
+                    "nombre": "Institución 1",
+                    "imagen": "/logos_articulos_detalles/uach_logo.png"
+                },
+                {
+                    "nombre": "Institución 2",
+                    "imagen": "/logos_articulos_detalles/hasfa_logo.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "titulo": "Práctica Inicial 2",
+            "resumen": "Descripción breve de la práctica Inicial 2.",
+            "autor": "Estudiante 2",
+            "fecha_inicio": "12/04/2023",
+            "fecha_fin": "22/01/2024",
+            "estado": "Finalizada",
+            "galeria_imagenes": [
+                "/imagenes_prueba/ia01.png",
+                "/imagenes_prueba/ia02.png",
+                "/imagenes_prueba/ia03.png"
+            ],
+            "participantes": [
+                {"nombre": "Renato Atencio"},
+                {"nombre": "Orlando Contreras"}
+            ],
+            "instituciones": [
+                {
+                    "nombre": "Institución 1",
+                    "imagen": "/logos_articulos_detalles/uach_logo.png"
+                },
+                {
+                    "nombre": "Institución 2",
+                    "imagen": "/logos_articulos_detalles/hasfa_logo.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "titulo": "Práctica Inicial 3",
+            "resumen": "Descripción breve de la práctica Inicial 3.",
+            "autor": "Estudiante 2",
+            "fecha_inicio": "12/04/2023",
+            "fecha_fin": "22/01/2024",
+            "estado": "No terminada",
+            "galeria_imagenes": [
+                "/imagenes_prueba/image01.png",
+                "/imagenes_prueba/image01.png"
+            ],
+            "participantes": [
+                {"nombre": "Renato Atencio"},
+                {"nombre": "Orlando Contreras"}
+            ],
+            "instituciones": [
+                {
+                    "nombre": "Institución 1",
+                    "imagen": "/logos_articulos_detalles/uach_logo.png"
+                },
+                {
+                    "nombre": "Institución 2",
+                    "imagen": "/logos_articulos_detalles/hasfa_logo.png"
+                }
+            ]
+        }
+    ],
+    "profesionales": [
+        {
+            "id": 1,
+            "titulo": "Práctica Profesional 1",
+            "resumen": "Descripción breve de la práctica profesional 1.",
+            "autor": "Estudiante 1",
+            "fecha_inicio": "12/04/2023",
+            "fecha_fin": "22/01/2024",
+            "estado": "En progreso",
+            "galeria_imagenes": [
+                "/imagenes_prueba/ia01.png",
+                "/imagenes_prueba/graficos02.png",
+                "/imagenes_prueba/ia03.png",
+                "/imagenes_prueba/graficos04.png"
+            ],
+            "participantes": [
+                {"nombre": "Renato Atencio"},
+                {"nombre": "Orlando Contreras"}
+            ],
+            "instituciones": [
+                {
+                    "nombre": "Institución 1",
+                    "imagen": "/logos_articulos_detalles/uach_logo.png"
+                },
+                {
+                    "nombre": "Institución 2",
+                    "imagen": "/logos_articulos_detalles/hasfa_logo.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "titulo": "Práctica Profesional 2",
+            "resumen": "Descripción breve de la práctica profesional 2.",
+            "autor": "Estudiante 2",
+            "fecha_inicio": "12/04/2023",
+            "fecha_fin": "22/01/2024",
+            "estado": "Finalizada",
+            "galeria_imagenes": [
+                "/imagenes_prueba/image01.png",
+                "/imagenes_prueba/image02.png",
+                "/imagenes_prueba/image03.png"
+            ],
+            "participantes": [
+                {"nombre": "Renato Atencio"},
+                {"nombre": "Orlando Contreras"}
+            ],
+            "instituciones": [
+                {
+                    "nombre": "Institución 1",
+                    "imagen": "/logos_articulos_detalles/uach_logo.png"
+                },
+                {
+                    "nombre": "Institución 2",
+                    "imagen": "/logos_articulos_detalles/hasfa_logo.png"
+                }
+            ]
+        }
+    ]
+}
