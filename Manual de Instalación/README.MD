@@ -4,7 +4,7 @@ Se Incluyen Dockerfiles para ejecutar la aplicación usando Docker
 
 - Tener instalado docker: https://www.docker.com/
 - Crear archivos .env siguiendo archivos .env.example (simplemente cambiar extensión si solo se quiere probar la aplicación)
-- En la carpeta raiz del repositorio ejecutar el comando:  docker compose up --build (quitar --build si ya existe la build)
+- En la carpeta raiz del repositorio ejecutar el comando:  docker compose up 
 
 
 
