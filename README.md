@@ -1,5 +1,6 @@
-# 202402_INFO282_portalrobleaustral
+# INFO290-portal-robleaustral
 Plataforma web Roble Austral para trabajar durante el curso INFO290
+I Semestre 2025
 
 # Integrantes
 
